@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アフリカお天気アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head><body>
+
+    <div class="weather-card">
+        <h1>アフリカの天気</h1>
+        <p>都市を選択してください</p>
+        <select id="city-select">
+            <option value="">-- アフリカの首都を選択 --</option>
+            <option value="Algiers">アルジェ (アルジェリア)</option>
+            <option value="Luanda">ルアンダ (アンゴラ)</option>
+            <option value="Kampala">カンパラ (ウガンダ)</option>
+            <option value="Cairo">カイロ (エジプト)</option>
+            <option value="Asmara">アスマラ (エリトリア)</option>
+            <option value="Addis Ababa">アディスアベバ (エチオピア)</option>
+            <option value="Accra">アクラ (ガーナ)</option>
+            <option value="Praia">プライア (カーボベルデ)</option>
+            <option value="Libreville">リーブルビル (ガボン)</option>
+            <option value="Yaounde">ヤウンデ (カメルーン)</option>
+            <option value="Banjul">バンジュール (ガンビア)</option>
+            <option value="Conakry">コナクリ (ギニア)</option>
+            <option value="Bissau">ビサウ (ギニアビサウ)</option>
+            <option value="Nairobi">ナイロビ (ケニア)</option>
+            <option value="Abidjan">アビジャン (コートジボワール)</option>
+            <option value="Moroni">モロニ (コモロ)</option>
+            <option value="Brazzaville">ブラザビル (コンゴ共和国)</option>
+            <option value="Kinshasa">キンシャサ (コンゴ民主共和国)</option>
+            <option value="Sao Tome">サントメ (サントメ・プリンシペ)</option>
+            <option value="Lusaka">ルサカ (ザンビア)</option>
+            <option value="Freetown">フリータウン (シエラレオネ)</option>
+            <option value="Djibouti">ジブチ (ジブチ)</option>
+            <option value="Harare">ハラレ (ジンバブエ)</option>
+            <option value="Khartoum">ハルツーム (スーダン)</option>
+            <option value="Mbabane">ムババーネ (エスワティニ)</option>
+            <option value="Victoria">ビクトリア (セーシェル)</option>
+            <option value="Malabo">マラボ (赤道ギニア)</option>
+            <option value="Dakar">ダカール (セネガル)</option>
+            <option value="Mogadishu">モガディシュ (ソマリア)</option>
+            <option value="Dodoma">ドドマ (タンザニア)</option>
+            <option value="N'Djamena">ンジャメナ (チャド)</option>
+            <option value="Tunis">チュニス (チュニジア)</option>
+            <option value="Lome">ロメ (トーゴ)</option>
+            <option value="Abuja">アブジャ (ナイジェリア)</option>
+            <option value="Windhoek">ウィントフック (ナミビア)</option>
+            <option value="Niamey">ニアメ (ニジェール)</option>
+            <option value="Ouagadougou">ワガドゥグー (ブルキナファソ)</option>
+            <option value="Bujumbura">ブジュンブラ (ブルンジ)</option>
+            <option value="Porto-Novo">ポルトノボ (ベナン)</option>
+            <option value="Gaborone">ハボローネ (ボツワナ)</option>
+            <option value="Antananarivo">アンタナナリボ (マダガスカル)</option>
+            <option value="Lilongwe">リロングウェ (マラウイ)</option>
+            <option value="Bamako">バマコ (マリ)</option>
+            <option value="Pretoria">プレトリア (南アフリカ)</option>
+            <option value="Juba">ジュバ (南スーダン)</option>
+            <option value="Port Louis">ポートルイス (モーリシャス)</option>
+            <option value="Nouakchott">ヌアクショット (モーリタニア)</option>
+            <option value="Maputo">マプト (モザンビーク)</option>
+            <option value="Rabat">ラバト (モロッコ)</option>
+            <option value="Tripoli">トリポリ (リビア)</option>
+            <option value="Monrovia">モンロビア (リベリア)</option>
+            <option value="Kigali">キガリ (ルワンダ)</option>
+            <option value="Maseru">マセル (レソト)</option>
+        </select>
+
+        <div id="weather-result">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

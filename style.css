@@ -1,0 +1,67 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('african_background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    
+    /* ↓↓↓ 以下の5行が中央揃えのポイントです ↓↓↓ */
+    height: 100vh; /* 画面の高さいっぱいに広げる */
+    margin: 0;     /* 余白をなくす */
+    display: flex;
+    justify-content: center; /* 垂直方向（縦）の中央揃え */
+    align-items: center;     /* 水平方向（横）の中央揃え */
+}
+.weather-card {
+   background: rgba(255, 255, 255, 0.8); /* 背景を半透明に */
+   padding: 30px;
+   border-radius: 15px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 少し濃い影 */
+   text-align: center;
+   width: 350px;
+}
+
+h1 {
+   color: #00796b;
+   font-family: 'Ubuntu', sans-serif; /* 少し特徴のあるフォント */
+}
+
+select {
+   width: 100%;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #b2dfdb;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+#weather-result {
+   margin-top: 20px;
+}
+
+.city-name {
+   font-size: 24px;
+   font-weight: bold;
+   margin: 0;
+}
+
+.weather-icon {
+   width: 100px;
+   height: 100px;
+}
+
+.weather-main {
+   font-size: 20px;
+   color: #555;
+   text-transform: capitalize;
+}
+
+.temperature {
+   font-size: 48px;
+   font-weight: bold;
+   margin: 10px 0;
+   color: #004d40;
+}
