@@ -1,31 +1,31 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-image: url('african_background.jpg');
+    background-image: url('american_background.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #333;
+    color: #fff;
     
-    /* ↓↓↓ 以下の5行が中央揃えのポイントです ↓↓↓ */
-    height: 100vh; /* 画面の高さいっぱいに広げる */
-    margin: 0;     /* 余白をなくす */
+
+    height: 100vh; 
+    margin: 0;     
     display: flex;
-    justify-content: center; /* 垂直方向（縦）の中央揃え */
-    align-items: center;     /* 水平方向（横）の中央揃え */
+    justify-content: center; 
+    align-items: center;     
 }
 .weather-card {
-   background: rgba(255, 255, 255, 0.8); /* 背景を半透明に */
-   padding: 30px;
-   border-radius: 15px;
-   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 少し濃い影 */
-   text-align: center;
-   width: 350px;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
 }
 
 h1 {
    color: #00796b;
-   font-family: 'Ubuntu', sans-serif; /* 少し特徴のあるフォント */
+   font-family: 'Ubuntu', sans-serif; 
 }
 
 select {
@@ -55,7 +55,7 @@ select {
 
 .weather-main {
    font-size: 20px;
-   color: #555;
+   color: #fff;
    text-transform: capitalize;
 }
 
@@ -63,5 +63,5 @@ select {
    font-size: 48px;
    font-weight: bold;
    margin: 10px 0;
-   color: #004d40;
+   color: #fff;
 }
